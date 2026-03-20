@@ -2,7 +2,7 @@ import { icons } from "@rn_movie_app/constants/icons";
 import React from "react";
 import { Image, TextInput, View } from "react-native";
 interface Props {
-  placeholder: "string";
+  placeholder: string;
   onPress?: () => void;
 }
 
